@@ -1,2 +1,20 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description player controls and speed
+//The code below has the sprite face the mouse.
+var _mouse_direction = point_direction(x, y, mouse_x, mouse_y);
+image_angle = _mouse_direction;
+
+var _thrust = mouse_check_button(mb_right);
+
+image_index = _thrust;
+
+if (_thrust) {
+	motion_add(image_angle, acceleration);
+	if (speed > max_speed) {
+		speed = max_speed;
+	}
+} else {
+	friction = friction_amount;
+}
+
+
+direction = _mouse_direction;
