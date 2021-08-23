@@ -7,6 +7,8 @@ var _thrust = mouse_check_button(mb_right);
 
 image_index = _thrust;
 
+
+
 if (_thrust) {
 	motion_add(image_angle, acceleration);
 	if (speed > max_speed) {
@@ -23,3 +25,11 @@ if (_thrust) {
 
 
 direction = _mouse_direction;
+
+
+var _fire_laser = mouse_check_button_pressed(mb_left);
+if (_fire_laser) {
+	create_laser();
+}
+
+
