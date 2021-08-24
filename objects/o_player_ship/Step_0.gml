@@ -26,6 +26,10 @@ if (_thrust) {
 
 direction = _mouse_direction;
 
+instance_create_layer(x, y, "Instances", o_laser);
+o_laser.direction = image_angle;
+o_laser.speed = 8;
+o_laser.image_angle = image_angle;
 
 var _fire_laser = mouse_check_button_pressed(mb_left);
 if (_fire_laser) {
