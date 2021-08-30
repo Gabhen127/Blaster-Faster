@@ -1,0 +1,4 @@
+function fireLasers(){
+	createRightlaser()
+	createLeftlaser()
+}
