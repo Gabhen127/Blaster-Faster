@@ -13,3 +13,4 @@ if (y < _half_height or y > room_height - _half_height){
 	vspeed = -vspeed * _momentum_loss;
 }
 
+event_inherited();
