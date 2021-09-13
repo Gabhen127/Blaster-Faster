@@ -7,7 +7,7 @@ function createRightlaser() {
 	
 	var _laser = instance_create_layer(_x, _y, "Instances", o_laser);
 	_laser.direction = image_angle;
-	_laser.speed = 8;
+	_laser.speed = 16;
 	_laser.image_angle = image_angle;
 	
 }
