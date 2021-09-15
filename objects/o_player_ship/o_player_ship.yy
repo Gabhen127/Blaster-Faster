@@ -30,13 +30,13 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":1,"value":"4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"max_speed","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"0.2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"acceleration","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0.05","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"friction_amount","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"max_armor","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"armor","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"acceleration","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"max_speed","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

@@ -29,6 +29,7 @@
     {"id":{"name":"s_explosion_chunk","path":"sprites/s_explosion_chunk/s_explosion_chunk.yy",},"order":13,},
     {"id":{"name":"s_explosion_center","path":"sprites/s_explosion_center/s_explosion_center.yy",},"order":2,},
     {"id":{"name":"s_laser","path":"sprites/s_laser/s_laser.yy",},"order":4,},
+    {"id":{"name":"o_enemy_ship_2","path":"objects/o_enemy_ship_2/o_enemy_ship_2.yy",},"order":7,},
     {"id":{"name":"s_stars_close","path":"sprites/s_stars_close/s_stars_close.yy",},"order":8,},
     {"id":{"name":"o_laser","path":"objects/o_laser/o_laser.yy",},"order":2,},
     {"id":{"name":"bounceOff_object","path":"scripts/bounceOff_object/bounceOff_object.yy",},"order":4,},
