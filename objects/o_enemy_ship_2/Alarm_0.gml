@@ -1,4 +1,5 @@
 /// @description Insert description here
+
 var _player_ship = instance_find(o_player_ship, 0);
 if (_player_ship == noone) exit;
 
@@ -11,5 +12,6 @@ if (_distance <= attack_range) {
 	_laser.image_angle = _direction;
 	_laser.direction = _direction;
 }
+
 
 alarm[0] = fire_rate;
