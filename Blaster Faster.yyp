@@ -16,7 +16,7 @@
     {"id":{"name":"s_enemy_one","path":"sprites/s_enemy_one/s_enemy_one.yy",},"order":1,},
     {"id":{"name":"createLeftlaser","path":"scripts/createLeftlaser/createLeftlaser.yy",},"order":1,},
     {"id":{"name":"s_explosion_particle","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"order":3,},
-    {"id":{"name":"s_armor_strip5","path":"sprites/s_armor_strip5/s_armor_strip5.yy",},"order":10,},
+    {"id":{"name":"s_armor","path":"sprites/s_armor/s_armor.yy",},"order":10,},
     {"id":{"name":"o_ui","path":"objects/o_ui/o_ui.yy",},"order":9,},
     {"id":{"name":"s_score","path":"sprites/s_score/s_score.yy",},"order":6,},
     {"id":{"name":"move_towards_player","path":"scripts/move_towards_player/move_towards_player.yy",},"order":7,},
