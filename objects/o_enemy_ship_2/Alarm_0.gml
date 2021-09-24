@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description enemy AI
 
 var _player_ship = instance_find(o_player_ship, 0);
 if (_player_ship == noone) exit;
