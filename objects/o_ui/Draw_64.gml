@@ -15,8 +15,12 @@ draw_sprite(s_armor, _armor_amount, _armor_x, _armor_y);
 
 #region Draw the score counter
 // This bit of code draws the score counter.
+draw_set_halign(fa_right);
 var _score_width = sprite_get_width(s_score);
-var _score_x = room_width - 8 - _score_width;
+var _score_x = room_width - _score_width - 8;
 var _score_y = 8;
+
 draw_sprite(s_score, 0, _score_x, _score_y);
+draw_text(_score_x + _score_width - 3, _score_y + 1, "45");
+draw_set_halign(fa_left);
 #endregion
