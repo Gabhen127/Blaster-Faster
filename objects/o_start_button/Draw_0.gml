@@ -1,4 +1,4 @@
 /// @description Button
 //This code creates the start button.
 draw_self();
-draw_text(x+1.5, y-3, text);
+draw_text(x+6, y-1, text);
