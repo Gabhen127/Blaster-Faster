@@ -25,13 +25,13 @@
     {"id":{"name":"o_player_ship","path":"objects/o_player_ship/o_player_ship.yy",},"order":0,},
     {"id":{"name":"a_laser","path":"sounds/a_laser/a_laser.yy",},"order":3,},
     {"id":{"name":"a_enemy_laser","path":"sounds/a_enemy_laser/a_enemy_laser.yy",},"order":0,},
-    {"id":{"name":"Object14","path":"objects/Object14/Object14.yy",},"order":13,},
     {"id":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"order":4,},
     {"id":{"name":"s_laser_powerup","path":"sprites/s_laser_powerup/s_laser_powerup.yy",},"order":5,},
     {"id":{"name":"f_one","path":"fonts/f_one/f_one.yy",},"order":0,},
     {"id":{"name":"o_enemy_laser","path":"objects/o_enemy_laser/o_enemy_laser.yy",},"order":8,},
     {"id":{"name":"createLaser_effect","path":"scripts/createLaser_effect/createLaser_effect.yy",},"order":3,},
     {"id":{"name":"a_explode","path":"sounds/a_explode/a_explode.yy",},"order":1,},
+    {"id":{"name":"YouWon","path":"rooms/YouWon/YouWon.yy",},"order":2,},
     {"id":{"name":"o_explosion_chunk","path":"objects/o_explosion_chunk/o_explosion_chunk.yy",},"order":6,},
     {"id":{"name":"s_explosion_chunk","path":"sprites/s_explosion_chunk/s_explosion_chunk.yy",},"order":13,},
     {"id":{"name":"spawn_enemies","path":"scripts/spawn_enemies/spawn_enemies.yy",},"order":8,},
@@ -71,6 +71,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Space","path":"rooms/Space/Space.yy",},},
+    {"roomId":{"name":"YouWon","path":"rooms/YouWon/YouWon.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
